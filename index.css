@@ -314,7 +314,7 @@ form p{
 /* Jumbotron2 */
 .jumbotron2{
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
 }
 
@@ -326,7 +326,7 @@ form p{
 }
 .section-adicional2{
     width: 50%;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: column;
     overflow: hidden;
