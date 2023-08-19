@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <button class="menu-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="container-nav">
+            <ul class="menu-left">
+                <li class="li-menu-left"><a href="">Inicio</a></li>
+                <li class="li-menu-left"><a href="productos.html">Productos</a></li>
+                <li class="li-menu-left"><a href="">Nosotros</a></li>
+                <li class="li-menu-left"><a href="">Contacto</a></li>
+            </ul>
+            <ul class="menu-right">
+                <li class="li-menu-right"><a href=""><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-base">
+        <div class="jumbotron">
+            <div class="jum-section1">
+                <div class="div-discount">
+                    <a href="productos.html">30% De descuento en todos los productos</a>
+                </div>
+                <div class="div-eslogan1">
+                   <h1>Descubre el sabor auténtico de Chile</h1>
+                </div>
+                <div class="div-eslogan2">
+                    <h2>En cada sorbo de nuestra cerveza artesanal, una verdadera obra maestra cervecera nacida en el corazón de esta tierra mágica.</h2>
+                </div>
+                <div class="container-form">
+                    <form action="#" method="post" onsubmit="return submitForm()()">
+                    <input class="email-input" type="email" id="email" placeholder=" Micorreo@gmail.com" name="email" required >
+                    <button type="submit">Enviar</button>
+                    <p>Completa el formulario si quiere recibir ofertas cada dia de nuestros productos.<a href="#">Conoce nuestros términos y condiciones.</a></p>
+                    </form>
+                </div>
+            </div>
+            <div class="jum-section2">
+                <img class="jum-img" src="beer5.png" alt="">
+            </div>
+        </div>
+        <div class="main-container-blog">
+            <div class="titulo-blog">
+                <h1>Disfruta nuestras variedades</h1>
+                <p>Nuestra cerveza te transportará a un viaje sensorial único y emocionante.</p>
+            </div>
+            <div class="div-blog">
+                <div class="container-blog">
+                    <div class="img-section">
+                        <img class="img-blog" src="beer1.png" alt="">
+                    </div>
+                    <div class="info-blog">
+                        <div class="container-info">
+                            <a href="">
+                                Nueva
+                            </a>                        
+                            <h1>
+                                Zorro Dorado Pale Ale
+                            </h1>
+                            <p>
+                                Esta Pale Ale que combina la calidez de la madera y la delicadeza del aroma de las flores nativas chilenas,
+                                cautivando tus sentidos con notas frutales y un sutil toque maderoso.
+                            </p>
+                        </div>
+                        <div class="container-compra">
+                            <a href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-blog">
+                    <div class="img-section">
+                        <img class="img-blog" src="beer2.png" alt="">
+                    </div>
+                    <div class="info-blog">
+                        <div class="container-info">
+                            <a href="">
+                                Nueva
+                            </a>                        
+                            <h1>
+                                Aroma Silvestre Saison
+                            </h1>
+                            <p>
+                                La fusión vibrante de cítricos jugosos y cascara de limón añaden 
+                                una sensación revitalizante y refrescante, despertando tu paladar con cada dulce y cítrico matiz.
+                            </p>
+                        </div>
+                        <div class="container-compra">
+                            <a href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-blog">
+                    <div class="img-section">
+                        <img class="img-blog" src="beer3.png" alt="">
+                    </div>
+                    <div class="info-blog">
+                        <div class="container-info">
+                            <a href="">
+                                Nueva
+                            </a>                        
+                            <h1>
+                                Flor del Bosque Red Ale
+                            </h1>
+                            <p>
+                                Notas tropicales de maracuyá, mango y piña danzan en perfecta armonía con el carácter maltoso de nuestra Red Ale,
+                                creando una sinfonía de sabores.
+                            </p>
+                        </div>
+                        <div class="container-compra">
+                            <a href="#">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron2">
+            <div class="section-adicional1">
+                <img style="height: 100%;" src="beer4.png" alt="">
+            </div>
+            <div class="section-adicional2">
+                <div>
+                    <h2>
+                        Conoce nuestro proceso de fabricación
+                    </h2>
+                    <h1>
+                        Calidad y originalidad en cada lata
+                    </h1>
+                    <p>
+                        Nuestra historia comienza con un grupo de apasionados cerveceros artesanales, 
+                        cuyas manos expertas se unieron para crear una marca con un sello inconfundible. 
+                        Inspirados en la flora y fauna local, decidimos crear Cervecería Silvestre, 
+                        para tejer una narrativa única a través de sabores frutales y maderosos,
+                        en una fusión innovadora de sabores y aromas.
+                    </p>
+                </div>
+                <div>
+                    <button>Más información</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content-footer1">
+            <div class="subcontainer-footer1">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/es/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="content-footer2">
+            <div class="subcontainer-footer2">
+                <h1>
+                    Nuestras cervezas
+                </h1>
+                <a href="productos.html">
+                    Catálogo
+                </a>
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div class="subcontainer-footer3"> 
+                <h1>
+                    Soporte
+                </h1>
+                <a href="">
+                    Compras
+                </a>        
+                <a href="">
+                    Certifícaciones
+                </a>
+                <a href="">
+                    Cotizaciones
+                </a>       
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div class="subcontainer-footer3"> 
+                <h1>
+                    Nosotros
+                </h1>
+                <a href="">
+                    Quienes somos
+                </a>
+                <a href="">
+                    Sucursales
+                </a>        
+                <a href="">
+                    Trabajos
+                </a>
+                <a href="">
+                    Socios
+                </a>
+                <a href="">
+                    Contacto
+                </a>
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div style="margin-bottom: 30px;" class="subcontainer-footer3"> 
+                <h1>
+                    Legal
+                </h1>
+                <a href="">
+                    Terminos
+                </a>        
+                <a href="">
+                    Condiciones
+                </a>     
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
