@@ -88,7 +88,7 @@
 
     .jum-img{
         width: 100%;
-        height: 600px;
+        height: 400px;
     }
 
 
@@ -234,7 +234,7 @@
 
     .section-adicional1{
         width: 100%;
-        height: 600px;
+        height: 400px;
         display: flex;
         flex-direction: column;
     }
@@ -278,6 +278,10 @@
         margin-top: 8%;
         margin-left: 5%;
         margin-bottom: 30px;
+    }
+
+    .img-jum2 {
+        height: 400px;
     }
     
     /* Footer */
