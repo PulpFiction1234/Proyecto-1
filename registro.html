@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/mediaregistro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <button class="menu-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="container-nav">
+            <ul class="menu-left">
+                <li class="li-menu-left"><a href="index.html">Inicio</a></li>
+                <li class="li-menu-left"><a href="productos.html">Productos</a></li>
+                <li class="li-menu-left"><a href="">Nosotros</a></li>
+                <li class="li-menu-left"><a href="">Contacto</a></li>
+            </ul>
+            <ul class="menu-right">
+                <li class="li-menu-right"><a href="registro.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-base">
+        <div class="container mt-5">
+            <h1>Formulario de Registro</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="usuario" name="usuario" required>
+                </div>
+                <div class="mb-3">
+                    <label for="contrasena" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="verificar" name="verificar">
+                    <label class="form-check-label" for="verificar">Verificar</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+            </form>
+    </main>
+    <footer class="footer">
+        <div class="content-footer1">
+            <div class="subcontainer-footer1">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/es/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="content-footer2">
+            <div class="subcontainer-footer2">
+                <h1>
+                    Nuestras cervezas
+                </h1>
+                <a href="productos.html">
+                    Catálogo
+                </a>
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div class="subcontainer-footer3"> 
+                <h1>
+                    Soporte
+                </h1>
+                <a href="">
+                    Compras
+                </a>        
+                <a href="">
+                    Certifícaciones
+                </a>
+                <a href="">
+                    Cotizaciones
+                </a>       
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div class="subcontainer-footer3"> 
+                <h1>
+                    Nosotros
+                </h1>
+                <a href="">
+                    Quienes somos
+                </a>
+                <a href="">
+                    Sucursales
+                </a>        
+                <a href="">
+                    Trabajos
+                </a>
+                <a href="">
+                    Socios
+                </a>
+                <a href="">
+                    Contacto
+                </a>
+            </div>
+        </div>
+        <div class="content-footer3">
+            <div style="margin-bottom: 30px;" class="subcontainer-footer3"> 
+                <h1>
+                    Legal
+                </h1>
+                <a href="">
+                    Terminos
+                </a>        
+                <a href="">
+                    Condiciones
+                </a>     
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

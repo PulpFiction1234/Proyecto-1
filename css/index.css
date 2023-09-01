@@ -20,10 +20,14 @@ body{
     background-color: #8C2020;
 }
 
+p {
+    font-size: 19px;
+}
+
 /* Header */
 
 .menu-icon {
-    display: none; /* Oculta el botón en pantallas grandes */
+    display: none;
     font-size: 24px;
     background-color: transparent;
     border: none;
@@ -149,6 +153,7 @@ body{
 }
 
 .jum-img{
+    border-radius: 10px;
     width: 100%;
     height: 700px;
 }
@@ -182,7 +187,7 @@ form p{
     color: #E7E7E4;
     margin-top: 10px;
     font-family: 'Questrial', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
 }
   
   form a{
@@ -426,7 +431,7 @@ form p{
 .subcontainer-footer2 a,
 .subcontainer-footer3 a {
     font-family:  'Questrial', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     color: #E7E7E4;
     margin-left: 10px;
     margin-top: 15px;
