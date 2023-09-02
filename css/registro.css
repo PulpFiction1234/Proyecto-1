@@ -83,6 +83,16 @@ header {
     color: aliceblue;
 }
 
+.menu-active .menu-left,
+.menu-active .menu-right {
+    display: flex;
+}
+
+.menu-active .menu-icon {
+    display: none;
+}
+
+
 /* Main */
 
 .main-base{
