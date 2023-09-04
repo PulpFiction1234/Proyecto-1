@@ -15,7 +15,7 @@
 
 ##### Como primer paso de este proyecto se creo un archivo html:5, en el cual debiamos cumplir con ciertos estandares y secciones para tener un proyecto optimo.
 
-![](https://raw.githubusercontent.com/UDDBootcamp/BOOT-M1-SEM4-PROY1/main/demo/layout.png?token=GHSAT0AAAAAACFMATL3RCQ4KG3BTENMQQAEZHVFYJQ)
+![]([https://raw.githubusercontent.com/UDDBootcamp/BOOT-M1-SEM4-PROY1/main/demo/layout.png?token=GHSAT0AAAAAACFMATL3RCQ4KG3BTENMQQAEZHVFYJQ](https://scontent.xx.fbcdn.net/v/t1.15752-9/372369964_646607697241705_2669185802259864646_n.png?stp=dst-png_s480x480&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=HmbKY3eKAFMAX8YFInM&_nc_oc=AQl0npoCgRX7YgL_iEzGhh23GkNcKUKDBGKLMIBs2nVmMACrl9dhzA7kSKvC6QwXUmh5xAn20rSzqvIBphVYAFLA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRs6a9h2H8DLWKRFe6nm9JS8KczDxC_5kt_Tp52sFKbLg&oe=651C9DFD))
 ###### -  Desarrollar prototipado simple.
 ###### -  Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
 ###### -  Aplicar tipos de selectores en CSS.
